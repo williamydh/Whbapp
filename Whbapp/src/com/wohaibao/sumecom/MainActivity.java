@@ -37,7 +37,7 @@ public class MainActivity extends GeneralBottomActivity {
 	// ViewPager适配器与监听器
 	private BannerAdapter mAdapter;
 	private BannerListener bannerListener;
-	private int timeSleep = 2000;
+	private int timeSleep = 3000;
 
 	// 圆圈标志位
 	private int pointIndex = 0;
