@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linearlayout"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/general_bottom_LinearLayout"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/general_bottom_index_imageButton"
+            style="@style/general_bottom_imageButton"
+            android:contentDescription="@string/general_bootom_imageButton_contentDescription"
+            android:src="@drawable/unindex" />
+
+        <TextView
+            android:id="@+id/general_bottom_index_textView"
+            style="@style/general_bottom_textView"
+            android:text="@string/general_bottom_index_textView"
+            android:textColor="#797979" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/general_bottom_LinearLayout"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/general_bottom_mall_imageButton"
+            style="@style/general_bottom_imageButton"
+            android:contentDescription="@string/general_bootom_imageButton_contentDescription"
+            android:src="@drawable/unmall" />
+
+        <TextView
+            android:id="@+id/general_bottom_mall_textView"
+            style="@style/general_bottom_textView"
+            android:text="@string/general_bottom_mall_textView"
+            android:textColor="#797979" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/general_bottom_LinearLayout"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/general_bottom_cart_imageButton"
+            style="@style/general_bottom_imageButton"
+            android:contentDescription="@string/general_bootom_imageButton_contentDescription"
+            android:src="@drawable/uncart" />
+
+        <TextView
+            android:id="@+id/general_bottom_cart_textView"
+            style="@style/general_bottom_textView"
+            android:text="@string/general_bottom_cart_textView"
+            android:textColor="#797979" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/general_bottom_LinearLayout"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/general_bottom_center_imageButton"
+            style="@style/general_bottom_imageButton"
+            android:contentDescription="@string/general_bootom_imageButton_contentDescription"
+            android:src="@drawable/uncenter" />
+
+        <TextView
+            android:id="@+id/general_bottom_center_textView"
+            style="@style/general_bottom_textView"
+            android:text="@string/general_bottom_center_textView"
+            android:textColor="#797979" />        
+    </LinearLayout>
+
+</LinearLayout>

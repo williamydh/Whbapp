@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general_bottom -->
+    <drawable name="general_bottom_selected">#F23030</drawable>
+    <drawable name="general_bottom_unselected">#797979</drawable>
+
+</resources>

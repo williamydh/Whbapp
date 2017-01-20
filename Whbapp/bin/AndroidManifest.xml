@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wohaibao.sumecom"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PayActivity"
+            android:label="@string/title_activity_pay" >
+        </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order" >
+        </activity>
+        
+        <activity
+            android:name=".activity.HistoryserchActivity"
+            android:label="@string/title_activity_mall" >
+        </activity>
+        
+        <activity
+            android:name=".activity.MallActivity"
+            android:label="@string/title_activity_mall" >
+        </activity>
+        
+        <activity
+            android:name=".activity.ProductdetailActivity"
+            android:label="@string/title_activity_mall" >
+        </activity>
+        
+        <activity
+            android:name=".activity.OrderdetailsActivity"
+            android:label="@string/title_activity_orderdetails" >
+        </activity>
+        
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:label="@string/title_activity_wxpay_entry" >
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/checkWxPaySupportbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/checkWxPaySupportbutton" />
+
+    <Button
+        android:id="@+id/callPayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkWxPaySupportbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/callPayButton" />
+
+    <TextView
+        android:id="@+id/activity_pay_textViewOrderid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/callPayButton"
+        android:layout_marginTop="16dp"
+        android:text="@string/activity_pay_textViewOrderid" />
+
+    <EditText
+        android:id="@+id/activity_pay_editTextOrderid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/activity_pay_textViewOrderid"
+        android:layout_alignBottom="@+id/activity_pay_textViewOrderid"
+        android:layout_alignLeft="@+id/checkWxPaySupportbutton"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
